@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiHyperParams.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiModel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiIngestTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiPredictor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiFunctions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiParams.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiTrainer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\Bonsai.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\BonsaiFunctions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\EdgeML-master\EdgeML-master\cpp\src\Bonsai\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{046AEA7F-277F-34AD-9CF5-640E77C57B91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

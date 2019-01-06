@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\blas_routines.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\Data.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\goldfoil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\logger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\mmaped.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\metrics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\par_utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\timer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\blas_routines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\Data.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\goldfoil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\logger.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\mmaped.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\metrics.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\par_utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\pre_processor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\EdgeML-master\EdgeML-master\cpp\src\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{046AEA7F-277F-34AD-9CF5-640E77C57B91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

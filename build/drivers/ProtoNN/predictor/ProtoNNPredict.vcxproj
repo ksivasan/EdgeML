@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64BF3FC3-350F-33E9-BD7B-D559A5894096}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ProtoNNPredict</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\EdgeML-master\EdgeML-master\cpp\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProtoNNPredict.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProtoNNPredict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\EdgeML-master\EdgeML-master\cpp\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ProtoNNPredict.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ProtoNNPredict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\EdgeML-master\EdgeML-master\build\drivers\ProtoNN\predictor\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ProtoNNPredict.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ProtoNNPredict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\EdgeML-master\EdgeML-master\build\drivers\ProtoNN\predictor\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ProtoNNPredict.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ProtoNNPredict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;LIGHT_LOGGER;STDERR_ONSCREEN;VERBOSE;DUMP;VERIFY;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;LIGHT_LOGGER;STDERR_ONSCREEN;VERBOSE;DUMP;VERIFY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\src\common\Debug\common.lib;..\..\..\src\ProtoNN\Debug\ProtoNN.lib;mkl_intel_ilp64.lib;mkl_intel_thread.lib;mkl_core.lib;libiomp5md.lib;..\..\..\src\common\Debug\common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/Debug/ProtoNNPredict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/EdgeML-master/EdgeML-master/cpp/ProtoNNPredict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\src\common\Release\common.lib;..\..\..\src\ProtoNN\Release\ProtoNN.lib;mkl_intel_ilp64.lib;mkl_intel_thread.lib;mkl_core.lib;libiomp5md.lib;..\..\..\src\common\Release\common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/Release/ProtoNNPredict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/EdgeML-master/EdgeML-master/cpp/ProtoNNPredict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\src\common\MinSizeRel\common.lib;..\..\..\src\ProtoNN\MinSizeRel\ProtoNN.lib;mkl_intel_ilp64.lib;mkl_intel_thread.lib;mkl_core.lib;libiomp5md.lib;..\..\..\src\common\MinSizeRel\common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/MinSizeRel/ProtoNNPredict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/MinSizeRel/ProtoNNPredict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SINGLE;EIGEN_USE_BLAS;MKL_ILP64;WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;D:\EdgeML-master\EdgeML-master\cpp\src\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN;D:\EdgeML-master\EdgeML-master\cpp\src\common\..\..\eigen;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\common;D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\..\..\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\src\common\RelWithDebInfo\common.lib;..\..\..\src\ProtoNN\RelWithDebInfo\ProtoNN.lib;mkl_intel_ilp64.lib;mkl_intel_thread.lib;mkl_core.lib;libiomp5md.lib;..\..\..\src\common\RelWithDebInfo\common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64_win/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/../compiler/lib/intel64_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/RelWithDebInfo/ProtoNNPredict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/RelWithDebInfo/ProtoNNPredict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/EdgeML-master/EdgeML-master/cpp -BD:/EdgeML-master/EdgeML-master/build --check-stamp-file D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\EdgeML-master\EdgeML-master\build\drivers\ProtoNN\predictor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/EdgeML-master/EdgeML-master/cpp -BD:/EdgeML-master/EdgeML-master/build --check-stamp-file D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\EdgeML-master\EdgeML-master\build\drivers\ProtoNN\predictor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/EdgeML-master/EdgeML-master/cpp -BD:/EdgeML-master/EdgeML-master/build --check-stamp-file D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\EdgeML-master\EdgeML-master\build\drivers\ProtoNN\predictor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/EdgeML-master/EdgeML-master/cpp -BD:/EdgeML-master/EdgeML-master/build --check-stamp-file D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/EdgeML-master/EdgeML-master/cpp/drivers/ProtoNN/predictor/CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\EdgeML-master\EdgeML-master\build\drivers\ProtoNN\predictor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\drivers\ProtoNN\predictor\ProtoNNPredictDriver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\EdgeML-master\EdgeML-master\build\ZERO_CHECK.vcxproj">
+      <Project>{6830E553-ECCD-30DB-806C-071F422B3FCB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\EdgeML-master\EdgeML-master\build\src\ProtoNN\ProtoNN.vcxproj">
+      <Project>{1EC07DAF-8A40-36AC-BE72-E68F51E7F96F}</Project>
+      <Name>ProtoNN</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\EdgeML-master\EdgeML-master\build\src\common\common.vcxproj">
+      <Project>{58605179-11CF-3F49-A81A-B1AB7FBB470F}</Project>
+      <Name>common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

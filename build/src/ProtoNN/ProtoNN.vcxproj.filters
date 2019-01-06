@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\cluster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNNModel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNNTrainer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNNPredictor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNNFunctions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNNHyperParams.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNNParams.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\cluster.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNNFunctions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\ProtoNN.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\EdgeML-master\EdgeML-master\cpp\src\ProtoNN\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{046AEA7F-277F-34AD-9CF5-640E77C57B91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+D:/EdgeML-master/EdgeML-master/build/CMakeFiles/ALL_BUILD.dir
+D:/EdgeML-master/EdgeML-master/build/CMakeFiles/ZERO_CHECK.dir
+D:/EdgeML-master/EdgeML-master/build/src/common/CMakeFiles/common.dir
+D:/EdgeML-master/EdgeML-master/build/src/Bonsai/CMakeFiles/Bonsai.dir
+D:/EdgeML-master/EdgeML-master/build/src/ProtoNN/CMakeFiles/ProtoNN.dir
+D:/EdgeML-master/EdgeML-master/build/drivers/Bonsai/trainer/CMakeFiles/BonsaiTrain.dir
+D:/EdgeML-master/EdgeML-master/build/drivers/Bonsai/predictor/CMakeFiles/BonsaiPredict.dir
+D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/trainer/CMakeFiles/ProtoNNTrain.dir
+D:/EdgeML-master/EdgeML-master/build/drivers/ProtoNN/predictor/CMakeFiles/ProtoNNPredict.dir
